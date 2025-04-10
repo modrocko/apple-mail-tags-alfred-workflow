@@ -1,0 +1,2114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.toddsgotapen.applemailtags</string>
+	<key>connections</key>
+	<dict>
+		<key>0E77D53A-41D5-4DF7-B32A-2E86E13D79F0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>717C5C99-F631-4C58-87D9-4D8A481E0481</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>23424C3B-EFC7-4FFA-A332-E510758611F6</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1507E96A-2EEC-4E5D-A18C-8182D24DBB7B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>16ED3C02-094A-4901-8347-13006FD7C6AB</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1507E96A-2EEC-4E5D-A18C-8182D24DBB7B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>82A70032-969C-48F9-A15E-1C362DA70C77</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>18EFDAF1-1343-4A7C-94FA-EEA9FA12A043</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E77D53A-41D5-4DF7-B32A-2E86E13D79F0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>23424C3B-EFC7-4FFA-A332-E510758611F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1507E96A-2EEC-4E5D-A18C-8182D24DBB7B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>271C77DB-5F81-4871-BC4A-841C41C0E80C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DCD6F267-B8C3-4728-9DAD-4791200508C4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6894F40D-6E16-4300-822E-ADE27B8A60C7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7A8B29D3-04A8-4798-9D57-D8D9CB76DC69</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6B6A4332-E979-4D49-A16C-BD204ECB5A24</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EAB1D1B5-F297-444D-9A79-F960CAE6008C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>717C5C99-F631-4C58-87D9-4D8A481E0481</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>838D886F-4363-4A7F-8C73-939383022ABB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>80288F51-471D-46F2-A25A-B3665B207BD2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7A8B29D3-04A8-4798-9D57-D8D9CB76DC69</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6894F40D-6E16-4300-822E-ADE27B8A60C7</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Reset data files</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>82A70032-969C-48F9-A15E-1C362DA70C77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3A404F1B-621B-44A4-8215-6AB6C9FABA39</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>838D886F-4363-4A7F-8C73-939383022ABB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C4E0845F-2F0E-45EF-842D-53E293F793BE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B796EDBC-F178-4232-A3A1-5FD80CBC10CE</key>
+		<array/>
+		<key>BA840841-35BD-49DA-8E4D-3C4C4F4F6119</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D3CED621-6D43-4325-B0FB-4C4486EFBF63</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string>fuckkkcccc</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DBBCB979-4E91-4B1B-AFDA-FF0C61687663</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Edit the tags file</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B796EDBC-F178-4232-A3A1-5FD80CBC10CE</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Open the workflow folder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C4E0845F-2F0E-45EF-842D-53E293F793BE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B788269A-1F9E-48FA-89B9-68160ED30450</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DC7DE9D3-0A8C-4EF3-A855-BE47AEB087ED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB7BC85F-8C2D-4F8E-B974-79BE00533D2C</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F5C85559-DBA8-4048-A301-288BC061C268</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3110DFA4-257C-48E0-AA96-70830AFAEE60</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>271C77DB-5F81-4871-BC4A-841C41C0E80C</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DCD6F267-B8C3-4728-9DAD-4791200508C4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FA2ECE61-F62E-48B2-AACD-596BD461E415</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DF553AC5-F90A-4542-B5D7-7CE739514A1A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DC7DE9D3-0A8C-4EF3-A855-BE47AEB087ED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EAB1D1B5-F297-444D-9A79-F960CAE6008C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB7BC85F-8C2D-4F8E-B974-79BE00533D2C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F5C85559-DBA8-4048-A301-288BC061C268</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>717C5C99-F631-4C58-87D9-4D8A481E0481</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>23424C3B-EFC7-4FFA-A332-E510758611F6</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1507E96A-2EEC-4E5D-A18C-8182D24DBB7B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>16ED3C02-094A-4901-8347-13006FD7C6AB</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FF228B52-27A5-4BFF-8B08-365DF06F030B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E77D53A-41D5-4DF7-B32A-2E86E13D79F0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Todd Clarke</string>
+	<key>description</key>
+	<string>Associate tags with Apple emails</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Apple Mail Tags</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>newtag</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Type new tag to assign</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C4E0845F-2F0E-45EF-842D-53E293F793BE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import os
+import sys
+import json
+import subprocess
+
+# Get new tag from input
+new_tag = sys.argv[1].strip()
+
+# Get metadata from environment
+message_id = os.environ.get("id", "").strip()
+old_tag = os.environ.get("old_tag", "").strip()
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+notif_title = os.environ["alfred_workflow_name"]
+
+# Make sure data file exists
+if not os.path.exists(db_path):
+    print("Data file not found")
+    sys.exit(1)
+
+# Load emails
+with open(db_path, "r") as f:
+    emails = json.load(f)
+
+# Try to find the matching email by ID &amp; reassign the tag
+changed = False
+for email in emails:
+    if email.get("id", "") == message_id:
+        tags = email.get("tags", [])
+        if old_tag in tags:
+            tags.remove(old_tag)
+        if new_tag not in tags:
+            tags.append(new_tag)
+        email["tags"] = tags
+        changed = True
+        break
+
+# Save changes and show notification
+if changed:
+    with open(db_path, "w") as f:
+        json.dump(emails, f, indent=2)
+
+    print(f"✅ Reassigned tag '{old_tag}' → '{new_tag}'")
+
+    notif_text = f"Email reassigned from '{old_tag}' to '{new_tag}'"
+    subprocess.run([
+        "osascript", "-e",
+        f'display notification "{notif_text}" with title "{notif_title}"'
+    ])
+else:
+    print("❌ Email not found or tag not changed")</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B788269A-1F9E-48FA-89B9-68160ED30450</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import os
+import sys
+import json
+import subprocess
+
+tag = sys.argv[1].strip()
+if not tag:
+    sys.exit(0)
+
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+title = os.environ["alfred_workflow_name"]
+
+# AppleScript: get subject, sender, date, id
+applescript = """
+tell application "Mail"
+	set selectedMessages to selection
+	set output to ""
+	repeat with msg in selectedMessages
+		set theSubject to subject of msg
+		set theSender to sender of msg
+		set theDate to date received of msg
+		set theID to message id of msg
+		set output to output &amp; theSubject &amp; "||" &amp; theSender &amp; "||" &amp; theDate &amp; "||" &amp; theID &amp; "%%"
+	end repeat
+	return output
+end tell
+"""
+
+result = subprocess.run(["osascript", "-e", applescript], capture_output=True, text=True)
+raw_output = result.stdout.strip()
+
+# If nothing selected
+if not raw_output:
+    subprocess.run([
+        "osascript",
+        "-e",
+        f'display notification "No mail(s) selected. Select mail(s) to tag." with title "{title}"'
+    ])
+    sys.exit(0)
+
+# Parse AppleScript result
+emails = []
+for item in raw_output.split("%%"):
+    if not item.strip():
+        continue
+    parts = item.strip().split("||")
+    if len(parts) == 4:
+        emails.append({
+            "subject": parts[0].strip(),
+            "sender": parts[1].strip(),
+            "date": parts[2].strip(),
+            "id": parts[3].strip()
+        })
+
+# Load or create database
+if os.path.exists(db_path):
+    with open(db_path, "r") as f:
+        db = json.load(f)
+else:
+    db = []
+
+# Tag emails - add new entry only if same ID+tag combo doesn't exist
+added = 0
+for email in emails:
+    already_tagged = any(
+        entry["id"] == email["id"] and tag in entry.get("tags", [])
+        for entry in db
+    )
+    if not already_tagged:
+        email["tags"] = [tag]
+        db.append(email)
+        added += 1
+
+# Save updated file
+with open(db_path, "w") as f:
+    json.dump(db, f, indent=2)
+
+# Show notification
+subprocess.run([
+    "osascript", "-e",
+    f'display notification "Tagged {added} email(s) with \\"{tag}\\"" with title "{title}"'
+])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>EB7BC85F-8C2D-4F8E-B974-79BE00533D2C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>46</integer>
+				<key>hotmod</key>
+				<integer>262144</integer>
+				<key>hotstring</key>
+				<string>M</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6B6A4332-E979-4D49-A16C-BD204ECB5A24</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>if [[ "$1" == "reassign" ]]; then
+  echo "id=$id"
+  echo "old_tag=$old_tag"
+else
+  echo ""
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>717C5C99-F631-4C58-87D9-4D8A481E0481</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>mtaga</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading tags...</string>
+				<key>script</key>
+				<string>import os
+import sys
+import json
+
+query = sys.argv[1].lower() if len(sys.argv) &gt; 1 else ""
+
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+default_tags_path = os.path.join(workflow_dir, "default-tags.json")
+
+# Load emails
+if not os.path.exists(db_path):
+    print('{"items": []}')
+    exit()
+
+with open(db_path, "r") as f:
+    emails = json.load(f)
+
+# Load default tags
+default_tags = []
+if os.path.exists(default_tags_path):
+    with open(default_tags_path, "r") as f:
+        default_tags = json.load(f)
+
+# Collect tags from emails + defaults
+tag_set = set(default_tags)
+for email in emails:
+    tag_set.update(email.get("tags", []))
+
+# Filter
+filtered = sorted(t for t in tag_set if query in t.lower())
+
+# Always include the typed input as a new tag option
+if query and query not in [t.lower() for t in tag_set]:
+    filtered.insert(0, query)
+
+# Build results
+items = []
+for tag in filtered:
+    items.append({
+        "title": tag,
+        "subtitle": "↵ to tag selected Mail message",
+        "arg": tag
+    })
+
+print(json.dumps({"items": items}))
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Specify a tag</string>
+				<key>title</key>
+				<string>Tag selected emails</string>
+				<key>type</key>
+				<integer>9</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>EAB1D1B5-F297-444D-9A79-F960CAE6008C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>838D886F-4363-4A7F-8C73-939383022ABB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key></key>
+					<string></string>
+					<key>message_id</key>
+					<string>{query}</string>
+					<key>tag</key>
+					<string>{var:tag}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>23424C3B-EFC7-4FFA-A332-E510758611F6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>mtagl</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading tags...</string>
+				<key>script</key>
+				<string>import os
+import json
+import sys
+
+# Get typed input from Alfred
+query = sys.argv[1].lower() if len(sys.argv) &gt; 1 else ""
+
+# Get workflow directory path
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+
+# Return nothing if file doesn't exist
+if not os.path.exists(db_path):
+    print('{"items": []}')
+    exit()
+
+# Load email data
+with open(db_path, "r") as f:
+    emails = json.load(f)
+
+# Count how many times each tag appears
+tag_counts = {}
+for email in emails:
+    for tag in email.get("tags", []):
+        tag_counts[tag] = tag_counts.get(tag, 0) + 1
+
+# Filter &amp; sort tags
+filtered_tags = sorted(tag for tag in tag_counts if query in tag.lower()) if query else sorted(tag_counts)
+
+# Build Alfred results
+items = []
+for tag in filtered_tags:
+    count = tag_counts[tag]
+    items.append({
+        "title": tag,
+        "subtitle": f"{count} email{'s' if count != 1 else ''} • ↵ to view • ⌘↵ to remove • ⌥↵ to rename • ⌃↵ to tag selected email",
+        "arg": tag,
+        "mods": {
+            "cmd": {
+                "arg": tag,
+                "subtitle": f"Remove tag: {tag}"
+            },
+            "alt": {
+                "arg": tag,
+                "subtitle": f"Rename tag: {tag}",
+                "variables": {
+                    "old_tag": tag
+                }
+            },
+            "ctrl": {
+                "arg": tag,
+                "subtitle": f"Tag mail with: {tag}"
+            }
+        }
+    })
+
+# Output to Alfred
+print(json.dumps({"items": items}))
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Show emails grouped by tag</string>
+				<key>title</key>
+				<string>Show tagged emails</string>
+				<key>type</key>
+				<integer>9</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>DC7DE9D3-0A8C-4EF3-A855-BE47AEB087ED</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>46</integer>
+				<key>hotmod</key>
+				<integer>786432</integer>
+				<key>hotstring</key>
+				<string>M</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>DF553AC5-F90A-4542-B5D7-7CE739514A1A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading tagged emails...</string>
+				<key>script</key>
+				<string>import os
+import sys
+import json
+
+tag = sys.argv[1].strip()
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+
+if not os.path.exists(db_path):
+    print('{"items": []}')
+    exit()
+
+with open(db_path, "r") as f:
+    emails = json.load(f)
+
+items = []
+for email in emails:
+    if tag in email.get("tags", []):
+        subject = email["subject"]
+        sender = email["sender"]
+        date = email["date"]
+        message_id = email.get("id", "")
+        items.append({
+            "title": subject,
+            "subtitle": f"{sender} — {date}",
+            "arg": message_id,
+            "mods": {
+                "cmd": {
+                    "arg": f"{message_id}||{tag}",
+                    "subtitle": f"⌘↵ to remove tag '{tag}' from this email"
+                },
+                "alt": {
+                    "arg": message_id,
+                    "subtitle": f"⌥↵ to open &amp; remove tag '{tag}'",
+                    "variables": {
+                        "tag": tag
+                    }
+                },
+                "ctrl": {
+                    "arg": "reassign",
+                    "subtitle": f"⌃↵ to reassign tag from '{tag}'",
+                    "variables": {
+                        "id": message_id,
+                        "old_tag": tag
+                    }
+                }
+            }
+        })
+
+print(json.dumps({"items": items}))
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F5C85559-DBA8-4048-A301-288BC061C268</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import sys
+import subprocess
+import urllib.parse
+
+message_id = sys.argv[1].strip()
+encoded = urllib.parse.quote(f"&lt;{message_id}&gt;")
+url = f"message://{encoded}"
+subprocess.run(["open", url])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1507E96A-2EEC-4E5D-A18C-8182D24DBB7B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import os
+import json
+import subprocess
+
+message_id = os.getenv("message_id")
+tag = os.getenv("tag")
+
+workflow_dir = os.environ["alfred_workflow_data"]
+data_path = os.path.join(workflow_dir, "emails.json")
+title = os.environ["alfred_workflow_name"]
+
+tag_removed = False
+updated_emails = []
+
+if os.path.exists(data_path):
+    with open(data_path, "r") as f:
+        emails = json.load(f)
+
+    for email in emails:
+        if email.get("id") == message_id:
+            tags = email.get("tags", [])
+            if tag in tags:
+                tags.remove(tag)
+                tag_removed = True
+            if tags:
+                email["tags"] = tags
+                updated_emails.append(email)
+            # else: don't add email back (removes from file)
+        else:
+            updated_emails.append(email)
+
+    with open(data_path, "w") as f:
+        json.dump(updated_emails, f, indent=2)
+
+# ✅ Notification
+if tag_removed:
+    subprocess.run([
+        "osascript", "-e",
+        f'display notification "Removed tag \\"{tag}\\" from email." with title "{title}"'
+    ])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3A404F1B-621B-44A4-8215-6AB6C9FABA39</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>3</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>82A70032-969C-48F9-A15E-1C362DA70C77</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import os
+import sys
+import json
+import subprocess
+
+tag_to_remove = sys.argv[1].strip()
+if not tag_to_remove:
+    sys.exit(0)
+
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+title = os.environ["alfred_workflow_name"]
+
+if not os.path.exists(db_path):
+    sys.exit(0)
+
+# Load current emails
+with open(db_path, "r") as f:
+    emails = json.load(f)
+
+# Remove tag from all emails
+for email in emails:
+    tags = email.get("tags", [])
+    if tag_to_remove in tags:
+        tags.remove(tag_to_remove)
+
+# Remove any emails that no longer have tags
+emails = [e for e in emails if e.get("tags")]
+
+# Save updated data
+with open(db_path, "w") as f:
+    json.dump(emails, f, indent=2)
+
+# Show notification
+subprocess.run([
+    "osascript", "-e",
+    f'display notification "Removed tag: {tag_to_remove}" with title "{title}"'
+])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3110DFA4-257C-48E0-AA96-70830AFAEE60</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import os
+import sys
+import json
+import subprocess
+
+# Input is something like: message_id||tag
+parts = sys.argv[1].split("||")
+if len(parts) != 2:
+    sys.exit()
+
+message_id = parts[0].strip()
+tag_to_remove = parts[1].strip()
+
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+title = os.environ["alfred_workflow_name"]
+
+if not os.path.exists(db_path):
+    sys.exit()
+
+with open(db_path, "r") as f:
+    emails = json.load(f)
+
+# Build new list, excluding emails that end up with no tags
+updated = []
+tag_removed = False
+
+for email in emails:
+    if email.get("id") == message_id:
+        tags = email.get("tags", [])
+        if tag_to_remove in tags:
+            tags.remove(tag_to_remove)
+            tag_removed = True
+        if tags:
+            email["tags"] = tags
+            updated.append(email)
+    else:
+        updated.append(email)
+
+with open(db_path, "w") as f:
+    json.dump(updated, f, indent=2)
+
+# ✅ Notification if tag was removed
+if tag_removed:
+    subprocess.run([
+        "osascript", "-e",
+        f'display notification "Email removed from \\"{tag_to_remove}\\"" with title "{title}"'
+    ])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>16ED3C02-094A-4901-8347-13006FD7C6AB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import os
+import json
+import subprocess
+
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+default_tags_path = os.path.join(workflow_dir, "default-tags.json")
+title = os.environ["alfred_workflow_name"]
+
+# Check if everything already exists
+if os.path.exists(workflow_dir) and os.path.exists(db_path) and os.path.exists(default_tags_path):
+    subprocess.run([
+        "osascript", "-e",
+        f'display notification "Setup skipped — files already exist." with title "{title}"'
+    ])
+    exit(0)
+
+# Otherwise → do setup
+os.makedirs(workflow_dir, exist_ok=True)
+
+# Create emails.json
+if not os.path.exists(db_path):
+    with open(db_path, 'w') as f:
+        json.dump([], f, indent=2)
+
+# Create default-tags.json with hardcoded tags
+if not os.path.exists(default_tags_path):
+    default_tags_list = ["@followup", "@unread", "@waiting", "@orders"]
+    with open(default_tags_path, 'w') as f:
+        json.dump(default_tags_list, f, indent=2)
+
+# Notify success
+subprocess.run([
+    "osascript", "-e",
+    f'display notification "Setup complete — JSON files created." with title "{title}"'
+])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7A8B29D3-04A8-4798-9D57-D8D9CB76DC69</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>:mtag init</string>
+				<key>subtext</key>
+				<string>↵ to intialize workflow ∙ ⌘↵ to reset data files</string>
+				<key>text</key>
+				<string>Initialize (or reset) workflow</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>80288F51-471D-46F2-A25A-B3665B207BD2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>rename</string>
+				<key>subtext</key>
+				<string>Rename this tag</string>
+				<key>text</key>
+				<string>Rename tag: {var:old_tag}</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>271C77DB-5F81-4871-BC4A-841C41C0E80C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>import json
+import os
+import sys
+import subprocess
+
+new_tag = sys.argv[1]
+old_tag = os.getenv("old_tag")
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+title = os.environ["alfred_workflow_name"]
+
+# Load data
+with open(db_path, "r") as f:
+    emails = json.load(f)
+
+# Replace old tag with new one
+for email in emails:
+    if "tags" in email and old_tag in email["tags"]:
+        email["tags"] = [new_tag if t == old_tag else t for t in email["tags"]]
+
+# Save updated data
+with open(db_path, "w") as f:
+    json.dump(emails, f, indent=2)
+
+# ✅ Notification
+subprocess.run([
+    "osascript", "-e",
+    f'display notification "Tag renamed from {old_tag} to {new_tag}." with title "{title}"'
+])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>FA2ECE61-F62E-48B2-AACD-596BD461E415</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>%</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>46</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>M</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>18EFDAF1-1343-4A7C-94FA-EEA9FA12A043</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>old_tag</key>
+					<string>{var:old_tag}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>DCD6F267-B8C3-4728-9DAD-4791200508C4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import os
+
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+default_tags_path = os.path.join(workflow_dir, "default-tags.json")
+
+# Delete files if they exist
+if os.path.exists(db_path):
+    os.remove(db_path)
+
+if os.path.exists(default_tags_path):
+    os.remove(default_tags_path)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6894F40D-6E16-4300-822E-ADE27B8A60C7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>mtags</string>
+				<key>subtext</key>
+				<string>Search by sender or subject. Type % to show all mails</string>
+				<key>text</key>
+				<string>Search tagged emails</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>FF228B52-27A5-4BFF-8B08-365DF06F030B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching emails...</string>
+				<key>script</key>
+				<string>import os
+import json
+
+query = "{query}".strip().lower()
+workflow_dir = os.environ["alfred_workflow_data"]
+db_path = os.path.join(workflow_dir, "emails.json")
+
+if not os.path.exists(db_path):
+    print('{"items": []}')
+    exit()
+
+with open(db_path, "r") as f:
+    emails = json.load(f)
+
+results = []
+for email in emails:
+    subject = email.get("subject", "")
+    sender = email.get("sender", "")
+    date = email.get("date", "")
+    tags_list = email.get("tags", [])
+    tag = tags_list[0] if tags_list else ""
+    message_id = email.get("id", "")
+
+    if query == "%" or query == "" or query in subject.lower() or query in sender.lower():
+        results.append({
+            "title": subject,
+            "subtitle": f"[{tag}] • {sender} — {date}",
+            "arg": message_id,
+            "mods": {
+                "cmd": {
+                    "arg": f"{message_id}||{tag}",
+                    "subtitle": f"⌘↵ to remove tag '{tag}' from this email"
+                },
+                "alt": {
+                    "arg": message_id,
+                    "subtitle": f"⌥↵ to open &amp; remove tag '{tag}'",
+                    "variables": {
+                        "tag": tag
+                    }
+                },
+                "ctrl": {
+                    "arg": "reassign",
+                    "subtitle": f"⌃↵ to reassign tag from '{tag}'",
+                    "variables": {
+                        "id": message_id,
+                        "old_tag": tag
+                    }
+                }
+            }
+        })
+
+if not results:
+    results.append({
+        "title": "No matches found",
+        "subtitle": f"No emails found for: {query}",
+        "valid": False
+    })
+
+print(json.dumps({"items": results}))
+</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>9</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0E77D53A-41D5-4DF7-B32A-2E86E13D79F0</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open -a TextEdit "$alfred_workflow_data/emails.json"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D3CED621-6D43-4325-B0FB-4C4486EFBF63</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open -a TextEdit "$alfred_workflow_data/default-tags.json"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DBBCB979-4E91-4B1B-AFDA-FF0C61687663</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>:mtag edit</string>
+				<key>subtext</key>
+				<string>↵ Edit email file ∙ ⌘ ↵ Edit tags file ∙ ⌥↵ Open workflow folder</string>
+				<key>text</key>
+				<string>Edit data files directly</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BA840841-35BD-49DA-8E4D-3C4C4F4F6119</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open "$alfred_workflow_data"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B796EDBC-F178-4232-A3A1-5FD80CBC10CE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Apple Mail Tags
+
+Tag mails with a label since this does not exist in Apple Mail
+
+Requires [jq](https://formulae.brew.sh/formula/jq).
+
+## Overview
+▸ Tag selected email(s) in Apple Mail  
+▸ View all emails for a selected tag  
+▸ Search for email(s) based on sender or subject  
+▸ Remove a tag from email(s)   
+▸ Rename a tag  
+▸ Set &amp; manage a list of default tags  
+
+
+
+## Usage
+
+
+
+### Initialize workflow
+
+Run this operation to start using this workflow
+
+![](assets/init.png)    
+
+&lt;kbd&gt;↵&lt;/kbd&gt; Initialize the workflow
+
+&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Reset data files *(will delete current data files)* 
+
+
+
+### Show all Mail Tag options
+
+View then choose an option
+
+![](assets/mtag.png)    
+
+### Assign a tag
+
+Select or type a new label to tag currently highlighted emails in Apple Mail
+
+![](assets/assign-tag.png)    
+
+&lt;kbd&gt;↵&lt;/kbd&gt; Tag selected email(s)
+
+
+
+### List tagged emails
+
+View a list of emails grouped by tag
+
+![](assets/list-tagged-emails.png)  
+
+&lt;kbd&gt;↵&lt;/kbd&gt;  View all emails for selected tag
+
+&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Remove selected tag from all tagged emails
+
+&lt;kbd&gt;⌥&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Rename selected tag for all emails
+
+&lt;kbd&gt;⌃&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Tag currently highlighted emails for selected tag  
+
+
+
+### View emails by tag
+
+View a list of emails for selected tag above
+
+![](assets/view-emails-by-tag.png)    
+
+&lt;kbd&gt;↵&lt;/kbd&gt;  View selected email
+
+&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Remove this tag &amp; all emails for this tag
+
+&lt;kbd&gt;⌥&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Reassign this tag for all associated emails 
+
+&lt;kbd&gt;⌃&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Tag currently highlighted emails with specified tag 
+
+
+
+### Search tagged emails
+
+Search all emails by subject or sender
+
+![](assets/search-tagged-emails.png)    
+
+Type % to show all tagged emails. Or type other characters to filter search results.
+
+![](assets/search-tagged-emails-2.png)    
+
+&lt;kbd&gt;↵&lt;/kbd&gt;  View email for selected item
+
+&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Remove tag from selected email
+
+&lt;kbd&gt;⌥&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open the email and remove tag afterwards
+
+&lt;kbd&gt;⌃&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Reassign tag for selected email
+
+
+
+### Apple Mail Tag Utilities
+
+Useful for some maintenance
+
+![](assets/mtag-edit.png)    
+
+&lt;kbd&gt;↵&lt;/kbd&gt;  Open email .json file for manual edits via TextEdit.app
+
+&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open default tags .json file for manual edit via TextEdit.app
+
+&lt;kbd&gt;⌥&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open the workflow data folder for this workflow</string>
+	<key>uidata</key>
+	<dict>
+		<key>0E77D53A-41D5-4DF7-B32A-2E86E13D79F0</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>list emails for search</string>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>835</real>
+		</dict>
+		<key>1507E96A-2EEC-4E5D-A18C-8182D24DBB7B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>open selected email</string>
+			<key>xpos</key>
+			<real>980</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>16ED3C02-094A-4901-8347-13006FD7C6AB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>remove email from tag</string>
+			<key>xpos</key>
+			<real>980</real>
+			<key>ypos</key>
+			<real>515</real>
+		</dict>
+		<key>18EFDAF1-1343-4A7C-94FA-EEA9FA12A043</key>
+		<dict>
+			<key>note</key>
+			<string>quick search</string>
+			<key>xpos</key>
+			<real>430</real>
+			<key>ypos</key>
+			<real>670</real>
+		</dict>
+		<key>23424C3B-EFC7-4FFA-A332-E510758611F6</key>
+		<dict>
+			<key>xpos</key>
+			<real>860</real>
+			<key>ypos</key>
+			<real>330</real>
+		</dict>
+		<key>271C77DB-5F81-4871-BC4A-841C41C0E80C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>rename tag</string>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>670</real>
+		</dict>
+		<key>3110DFA4-257C-48E0-AA96-70830AFAEE60</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>delete tag</string>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>515</real>
+		</dict>
+		<key>3A404F1B-621B-44A4-8215-6AB6C9FABA39</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>open mail &amp; remove tag</string>
+			<key>xpos</key>
+			<real>1230</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>6894F40D-6E16-4300-822E-ADE27B8A60C7</key>
+		<dict>
+			<key>note</key>
+			<string>run reset</string>
+			<key>xpos</key>
+			<real>155</real>
+			<key>ypos</key>
+			<real>830</real>
+		</dict>
+		<key>6B6A4332-E979-4D49-A16C-BD204ECB5A24</key>
+		<dict>
+			<key>note</key>
+			<string>tag</string>
+			<key>xpos</key>
+			<real>220</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>717C5C99-F631-4C58-87D9-4D8A481E0481</key>
+		<dict>
+			<key>note</key>
+			<string>set email tag vars</string>
+			<key>xpos</key>
+			<real>850</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>7A8B29D3-04A8-4798-9D57-D8D9CB76DC69</key>
+		<dict>
+			<key>note</key>
+			<string>run init</string>
+			<key>xpos</key>
+			<real>240</real>
+			<key>ypos</key>
+			<real>640</real>
+		</dict>
+		<key>80288F51-471D-46F2-A25A-B3665B207BD2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>invoke setup or reset</string>
+			<key>xpos</key>
+			<real>55</real>
+			<key>ypos</key>
+			<real>640</real>
+		</dict>
+		<key>82A70032-969C-48F9-A15E-1C362DA70C77</key>
+		<dict>
+			<key>xpos</key>
+			<real>1135</real>
+			<key>ypos</key>
+			<real>385</real>
+		</dict>
+		<key>838D886F-4363-4A7F-8C73-939383022ABB</key>
+		<dict>
+			<key>xpos</key>
+			<real>1040</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>B788269A-1F9E-48FA-89B9-68160ED30450</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>reassign tag to email</string>
+			<key>xpos</key>
+			<real>1360</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>B796EDBC-F178-4232-A3A1-5FD80CBC10CE</key>
+		<dict>
+			<key>note</key>
+			<string>open workflow folder</string>
+			<key>xpos</key>
+			<real>655</real>
+			<key>ypos</key>
+			<real>1295</real>
+		</dict>
+		<key>BA840841-35BD-49DA-8E4D-3C4C4F4F6119</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<real>435</real>
+			<key>ypos</key>
+			<real>1150</real>
+		</dict>
+		<key>C4E0845F-2F0E-45EF-842D-53E293F793BE</key>
+		<dict>
+			<key>note</key>
+			<string>prompt for new tag</string>
+			<key>xpos</key>
+			<real>1150</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>D3CED621-6D43-4325-B0FB-4C4486EFBF63</key>
+		<dict>
+			<key>note</key>
+			<string>edit email file</string>
+			<key>xpos</key>
+			<real>655</real>
+			<key>ypos</key>
+			<real>995</real>
+		</dict>
+		<key>DBBCB979-4E91-4B1B-AFDA-FF0C61687663</key>
+		<dict>
+			<key>note</key>
+			<string>edit tags file</string>
+			<key>xpos</key>
+			<real>655</real>
+			<key>ypos</key>
+			<real>1150</real>
+		</dict>
+		<key>DC7DE9D3-0A8C-4EF3-A855-BE47AEB087ED</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>list tags</string>
+			<key>xpos</key>
+			<real>425</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>DCD6F267-B8C3-4728-9DAD-4791200508C4</key>
+		<dict>
+			<key>xpos</key>
+			<real>860</real>
+			<key>ypos</key>
+			<real>770</real>
+		</dict>
+		<key>DF553AC5-F90A-4542-B5D7-7CE739514A1A</key>
+		<dict>
+			<key>note</key>
+			<string>list tags</string>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>EAB1D1B5-F297-444D-9A79-F960CAE6008C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>specify tag</string>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>EB7BC85F-8C2D-4F8E-B974-79BE00533D2C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>tag mails</string>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>F5C85559-DBA8-4048-A301-288BC061C268</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>list emails for tag</string>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>FA2ECE61-F62E-48B2-AACD-596BD461E415</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>rename tag</string>
+			<key>xpos</key>
+			<real>985</real>
+			<key>ypos</key>
+			<real>670</real>
+		</dict>
+		<key>FF228B52-27A5-4BFF-8B08-365DF06F030B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>prompt for search</string>
+			<key>xpos</key>
+			<real>430</real>
+			<key>ypos</key>
+			<real>835</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>2.5</string>
+	<key>webaddress</key>
+	<string>toddsgotapen.com</string>
+</dict>
+</plist>
