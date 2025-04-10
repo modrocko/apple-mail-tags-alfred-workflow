@@ -2,7 +2,9 @@
 
 Tag mails with a label since this does not exist in Apple Mail
 
-Requires [jq](https://formulae.brew.sh/formula/jq).
+▸  Requires [jq](https://formulae.brew.sh/formula/jq)  
+▸  [Download workflow](https://github.com/modrocko/apple-mail-tags-alfred-workflow/releases/latest)
+
 
 ## Overview
 ▸ Tag selected email(s) in Apple Mail  
@@ -12,11 +14,7 @@ Requires [jq](https://formulae.brew.sh/formula/jq).
 ▸ Rename a tag  
 ▸ Set & manage a list of default tags  
 
-
-
 ## Usage
-
-
 
 ### Initialize workflow
 
@@ -27,8 +25,6 @@ Run this operation to start using this workflow
 <kbd>↵</kbd> Initialize the workflow
 
 <kbd>⌘</kbd> <kbd>↵</kbd> Reset data files *(will delete current data files)* 
-
-
 
 ### Show all Mail Tag options
 
@@ -43,8 +39,6 @@ Select or type a new label to tag currently highlighted emails in Apple Mail
 ![](assets/assign-tag.png)    
 
 <kbd>↵</kbd> Tag selected email(s)
-
-
 
 ### List tagged emails
 
