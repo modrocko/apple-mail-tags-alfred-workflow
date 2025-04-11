@@ -8,13 +8,18 @@ Tag mails with a label since this does not exist in Apple Mail
 
 ## Overview
 ▸ Tag selected email(s) in Apple Mail  
-▸ View all emails for a selected tag  
+▸ View all emails for a selected tag   
+▸ Open 1 or all emails for a selected tag   
 ▸ Search for email(s) based on sender or subject  
 ▸ Remove a tag from email(s)   
 ▸ Rename a tag  
 ▸ Set & manage a list of default tags  
 
+
+
 ## Usage
+
+
 
 ### Initialize workflow
 
@@ -25,6 +30,8 @@ Run this operation to start using this workflow
 <kbd>↵</kbd> Initialize the workflow
 
 <kbd>⌘</kbd> <kbd>↵</kbd> Reset data files *(will delete current data files)* 
+
+
 
 ### Show all Mail Tag options
 
@@ -40,6 +47,8 @@ Select or type a new label to tag currently highlighted emails in Apple Mail
 
 <kbd>↵</kbd> Tag selected email(s)
 
+
+
 ### List tagged emails
 
 View a list of emails grouped by tag
@@ -52,7 +61,9 @@ View a list of emails grouped by tag
 
 <kbd>⌥</kbd> <kbd>↵</kbd> Rename selected tag for all emails
 
-<kbd>⌃</kbd> <kbd>↵</kbd> Tag currently highlighted emails for selected tag  
+<kbd>⌃</kbd> <kbd>↵</kbd> Tag currently highlighted emails for selected tag
+
+<kbd>⇧</kbd> <kbd>↵</kbd> Open all emails for the selected tag
 
 
 
