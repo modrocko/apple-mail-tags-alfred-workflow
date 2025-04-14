@@ -31,7 +31,7 @@ Run this operation to start using this workflow
 
 <kbd>↵</kbd> Initialize the workflow
 
-<kbd>⌘</kbd> <kbd>↵</kbd> Reset data files *(will delete current data files)* 
+<kbd>⌘</kbd> <kbd>↵</kbd> Reset data files *(will delete current data files & recreate new ones)* 
 
 
 
