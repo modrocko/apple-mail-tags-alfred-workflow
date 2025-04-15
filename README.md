@@ -15,8 +15,6 @@ Tag mails with a label since this does not exist in Apple Mail
 ▸ Rename a tag  
 ▸ Set & manage a list of default tags  
 
-***Tip:** Type '!' to mark & save tags as '❗' (high priority)*
-
 
 
 ## Usage
@@ -31,7 +29,7 @@ Run this operation to start using this workflow
 
 <kbd>↵</kbd> Initialize the workflow
 
-<kbd>⌘</kbd> <kbd>↵</kbd> Reset data files *(will delete current data files & recreate new ones)* 
+<kbd>⌘</kbd> <kbd>↵</kbd> Reset data files *(will delete current data files)* 
 
 
 

@@ -1,2 +1,3 @@
 *.webloc
 _alfredworkflow alias
+.DS_Store

@@ -446,7 +446,7 @@ python3 scripts/open_all_emails.py "{query}"</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>mtaga</string>
+				<string>mta</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -666,7 +666,7 @@ python3 scripts/reassign_tag_to_email.py "{query}"</string>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>mtagl</string>
+				<string>mtl</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -1000,7 +1000,7 @@ python3 scripts/rename_tag.py "{query}"</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>mtags</string>
+				<string>mts</string>
 				<key>subtext</key>
 				<string>Search by sender or subject. Type % to show all mails</string>
 				<key>text</key>
@@ -1116,7 +1116,7 @@ python3 scripts/list_emails_for_search.py "{query}"
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>:mtag init</string>
+				<string>:mt init</string>
 				<key>subtext</key>
 				<string>↵ to intialize workflow ∙ ⌘↵ to reset data files</string>
 				<key>text</key>
@@ -1195,7 +1195,7 @@ subprocess.run([
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>:mtag edit</string>
+				<string>:mt edit</string>
 				<key>subtext</key>
 				<string>↵ Edit email file ∙ ⌘ ↵ Edit tags file ∙ ⌥↵ Open data folder ∙ ⌃↵ Open workflow folder</string>
 				<key>text</key>
