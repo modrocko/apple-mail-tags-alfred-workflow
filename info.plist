@@ -318,23 +318,12 @@
 			</dict>
 		</array>
 		<key>A3DD7212-F203-4349-827B-DFF74F6A97FF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F6793027-5746-4D59-AF0D-FCEC2C20E95C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>C023AA56-A981-44AA-ADF3-F77F7019B875</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A3DD7212-F203-4349-827B-DFF74F6A97FF</string>
+				<string>24CF49F4-7605-4E1A-A0C8-D0F97427AD23</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -361,19 +350,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F6793027-5746-4D59-AF0D-FCEC2C20E95C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>24CF49F4-7605-4E1A-A0C8-D0F97427AD23</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -433,57 +409,6 @@ python3 scripts/open_all_emails.py "{query}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>mta</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Loading tags...</string>
-				<key>script</key>
-				<string>cd "$alfred_workflow_directory"
-python3 scripts/specify_tag.py "{query}"
-</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Specify a tag</string>
-				<key>title</key>
-				<string>Tag selected emails</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>DBF1BC5E-DA7F-45EB-9F45-3AB176ECC9A5</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -506,61 +431,6 @@ fi</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>A1618763-0561-4211-8017-8828311B86A9</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>cd "$alfred_workflow_directory"
-python3 scripts/tag_emails.py "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>46</integer>
-				<key>hotmod</key>
-				<integer>262144</integer>
-				<key>hotstring</key>
-				<string>M</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>FD615470-19BE-4E9C-8089-6F30C5E0F866</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -625,6 +495,136 @@ python3 scripts/reassign_tag_to_email.py "{query}"</string>
 			<string>2F376BF1-EB0B-47AA-9365-914241FB9313</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>mta</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading tags...</string>
+				<key>script</key>
+				<string>cd "$alfred_workflow_directory"
+python3 scripts/specify_tag.py "{query}"
+</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Specify a tag</string>
+				<key>title</key>
+				<string>Tag selected emails</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>DBF1BC5E-DA7F-45EB-9F45-3AB176ECC9A5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>cd "$alfred_workflow_directory"
+python3 scripts/tag_emails.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>46</integer>
+				<key>hotmod</key>
+				<integer>262144</integer>
+				<key>hotstring</key>
+				<string>M</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FD615470-19BE-4E9C-8089-6F30C5E0F866</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>cd "$alfred_workflow_directory"
+python3 scripts/open_email_and_remove_tag.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>24CF49F4-7605-4E1A-A0C8-D0F97427AD23</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -734,30 +734,6 @@ subprocess.run(["open", url])</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>cd "$alfred_workflow_directory"
-python3 scripts/open_email_and_remove_tag.py "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>24CF49F4-7605-4E1A-A0C8-D0F97427AD23</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -834,19 +810,6 @@ python3 scripts/list_emails_for_tag.py "{query}"
 			<string>62B94A8D-D5B7-4DEF-A81A-7F9D22EA769F</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>seconds</key>
-				<string>3</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
-			<key>uid</key>
-			<string>F6793027-5746-4D59-AF0D-FCEC2C20E95C</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1433,7 +1396,7 @@ Useful for some maintenance
 			<key>xpos</key>
 			<real>790</real>
 			<key>ypos</key>
-			<real>775</real>
+			<real>745</real>
 		</dict>
 		<key>24CF49F4-7605-4E1A-A0C8-D0F97427AD23</key>
 		<dict>
@@ -1442,16 +1405,16 @@ Useful for some maintenance
 			<key>note</key>
 			<string>open mail &amp; remove tag</string>
 			<key>xpos</key>
-			<real>1170</real>
+			<real>875</real>
 			<key>ypos</key>
-			<real>365</real>
+			<real>210</real>
 		</dict>
 		<key>2F376BF1-EB0B-47AA-9365-914241FB9313</key>
 		<dict>
 			<key>xpos</key>
 			<real>915</real>
 			<key>ypos</key>
-			<real>215</real>
+			<real>90</real>
 		</dict>
 		<key>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</key>
 		<dict>
@@ -1549,7 +1512,7 @@ Useful for some maintenance
 			<key>xpos</key>
 			<real>1015</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>60</real>
 		</dict>
 		<key>862F3B21-447F-4D57-8545-FFA66E433225</key>
 		<dict>
@@ -1589,7 +1552,7 @@ Useful for some maintenance
 			<key>xpos</key>
 			<real>740</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>60</real>
 		</dict>
 		<key>A361AFFA-D23F-487F-B136-7864F94ACE50</key>
 		<dict>
@@ -1622,7 +1585,7 @@ Useful for some maintenance
 			<key>xpos</key>
 			<real>1225</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>60</real>
 		</dict>
 		<key>AD675625-6D26-4572-8498-005394395632</key>
 		<dict>
@@ -1640,16 +1603,16 @@ Useful for some maintenance
 			<key>note</key>
 			<string>rename tag</string>
 			<key>xpos</key>
-			<real>870</real>
+			<real>875</real>
 			<key>ypos</key>
 			<real>715</real>
 		</dict>
 		<key>C023AA56-A981-44AA-ADF3-F77F7019B875</key>
 		<dict>
 			<key>xpos</key>
-			<real>745</real>
+			<real>795</real>
 			<key>ypos</key>
-			<real>340</real>
+			<real>240</real>
 		</dict>
 		<key>D8996E22-F231-4D23-AD46-8A611FBEFA9C</key>
 		<dict>
@@ -1690,13 +1653,6 @@ Useful for some maintenance
 			<real>520</real>
 			<key>ypos</key>
 			<real>15</real>
-		</dict>
-		<key>F6793027-5746-4D59-AF0D-FCEC2C20E95C</key>
-		<dict>
-			<key>xpos</key>
-			<real>1060</real>
-			<key>ypos</key>
-			<real>395</real>
 		</dict>
 		<key>FD615470-19BE-4E9C-8089-6F30C5E0F866</key>
 		<dict>
