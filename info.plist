@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>00B6CE1D-D11A-4E28-9C22-9665282CC1C2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A361AFFA-D23F-487F-B136-7864F94ACE50</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>14B97276-2ADF-40DD-9055-3C5B1D13134A</key>
 		<array>
 			<dict>
@@ -39,6 +52,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>6EE3D2C1-E223-4FB8-B55A-42FA14A8DFE2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>466CEA20-7813-4EC3-9202-9F5FB8608984</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6837FE48-C13A-4163-98A7-5811F213A27D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -499,6 +525,30 @@ python3 scripts/reassign_tag_to_email.py "{query}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>cd "$alfred_workflow_directory"
+python3 scripts/tag_emails.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -546,30 +596,6 @@ python3 scripts/specify_tag.py "{query}"
 			<string>DBF1BC5E-DA7F-45EB-9F45-3AB176ECC9A5</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>cd "$alfred_workflow_directory"
-python3 scripts/tag_emails.py "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -820,7 +846,14 @@ python3 scripts/list_emails_for_tag.py "{query}"
 				<integer>68</integer>
 				<key>script</key>
 				<string>cd "$alfred_workflow_directory"
-python3 scripts/remove_email_from_tag.py "{query}"</string>
+python3 scripts/remove_email_from_tag.py "{query}"
+
+# extract the tag part after '||'
+input="{query}"
+tag="${input##*||}"
+
+# trigger refresh if tag exists
+[ -n "$tag" ] &amp;&amp; osascript -e 'tell application "Alfred 5" to run trigger "refresh_file_list" in workflow "com.toddsgotapen.applemailtags" with argument "'"$tag"'"'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -844,7 +877,9 @@ python3 scripts/remove_email_from_tag.py "{query}"</string>
 				<integer>68</integer>
 				<key>script</key>
 				<string>cd "$alfred_workflow_directory"
-python3 scripts/delete_tag.py "{query}"</string>
+python3 scripts/delete_tag.py "{query}"
+
+osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in workflow "com.toddsgotapen.applemailtags"'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -858,6 +893,36 @@ python3 scripts/delete_tag.py "{query}"</string>
 			<string>624598AE-C397-4E76-B210-15D21917B2F0</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>refresh_tags_list</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>00B6CE1D-D11A-4E28-9C22-9665282CC1C2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>refresh_file_list</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>466CEA20-7813-4EC3-9202-9F5FB8608984</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1373,6 +1438,15 @@ Useful for some maintenance
 &lt;kbd&gt;⌥&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open the workflow data folder for this workflow</string>
 	<key>uidata</key>
 	<dict>
+		<key>00B6CE1D-D11A-4E28-9C22-9665282CC1C2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>560</real>
+		</dict>
 		<key>0F536D98-3B23-4D0D-AB4E-D752B5D6A53C</key>
 		<dict>
 			<key>note</key>
@@ -1436,6 +1510,15 @@ Useful for some maintenance
 			<key>ypos</key>
 			<real>935</real>
 		</dict>
+		<key>466CEA20-7813-4EC3-9202-9F5FB8608984</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>560</real>
+		</dict>
 		<key>4B7DD93D-3583-4F42-8CDD-87A2DDB1F182</key>
 		<dict>
 			<key>colorindex</key>
@@ -1468,7 +1551,7 @@ Useful for some maintenance
 		<key>624598AE-C397-4E76-B210-15D21917B2F0</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>5</integer>
+			<integer>3</integer>
 			<key>note</key>
 			<string>delete tag</string>
 			<key>xpos</key>
@@ -1617,13 +1700,13 @@ Useful for some maintenance
 		<key>D8996E22-F231-4D23-AD46-8A611FBEFA9C</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>10</integer>
+			<integer>3</integer>
 			<key>note</key>
 			<string>remove email from tag</string>
 			<key>xpos</key>
 			<real>875</real>
 			<key>ypos</key>
-			<real>520</real>
+			<real>550</real>
 		</dict>
 		<key>D8F123C7-34D8-4D51-BFB7-86F6484F6D93</key>
 		<dict>
