@@ -490,7 +490,9 @@ fi</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>cd "$alfred_workflow_directory"
-python3 scripts/reassign_tag_to_email.py "{query}"</string>
+python3 scripts/reassign_tag_to_email.py "{query}"
+
+osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in workflow "com.toddsgotapen.applemailtags"'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -521,30 +523,6 @@ python3 scripts/reassign_tag_to_email.py "{query}"</string>
 			<string>2F376BF1-EB0B-47AA-9365-914241FB9313</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>cd "$alfred_workflow_directory"
-python3 scripts/tag_emails.py "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -596,6 +574,30 @@ python3 scripts/specify_tag.py "{query}"
 			<string>DBF1BC5E-DA7F-45EB-9F45-3AB176ECC9A5</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>cd "$alfred_workflow_directory"
+python3 scripts/tag_emails.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -900,21 +902,6 @@ osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in 
 				<key>availableviaurlhandler</key>
 				<false/>
 				<key>triggerid</key>
-				<string>refresh_tags_list</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>00B6CE1D-D11A-4E28-9C22-9665282CC1C2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>availableviaurlhandler</key>
-				<false/>
-				<key>triggerid</key>
 				<string>refresh_file_list</string>
 			</dict>
 			<key>type</key>
@@ -927,13 +914,30 @@ osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in 
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>refresh_tags_list</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>00B6CE1D-D11A-4E28-9C22-9665282CC1C2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
 				<string>cd "$alfred_workflow_directory"
-python3 scripts/rename_tag.py "{query}"</string>
+python3 scripts/rename_tag.py "{query}"
+
+osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in workflow "com.toddsgotapen.applemailtags"'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -1441,7 +1445,7 @@ Useful for some maintenance
 		<key>00B6CE1D-D11A-4E28-9C22-9665282CC1C2</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>3</integer>
+			<integer>2</integer>
 			<key>xpos</key>
 			<real>85</real>
 			<key>ypos</key>
@@ -1533,7 +1537,7 @@ Useful for some maintenance
 		<key>5C64E9D7-167D-47F7-9E9E-2594F709EE9E</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
+			<integer>8</integer>
 			<key>xpos</key>
 			<real>635</real>
 			<key>ypos</key>
@@ -1551,7 +1555,7 @@ Useful for some maintenance
 		<key>624598AE-C397-4E76-B210-15D21917B2F0</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>3</integer>
+			<integer>2</integer>
 			<key>note</key>
 			<string>delete tag</string>
 			<key>xpos</key>
@@ -1611,7 +1615,7 @@ Useful for some maintenance
 		<key>87646F74-8058-4272-8CEE-2A0602A76861</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>2</integer>
+			<integer>8</integer>
 			<key>note</key>
 			<string>invoke setup or reset</string>
 			<key>xpos</key>
@@ -1662,7 +1666,7 @@ Useful for some maintenance
 		<key>A998A346-D434-4180-9FF4-C2AD09DD5FCD</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>10</integer>
+			<integer>2</integer>
 			<key>note</key>
 			<string>reassign tag to email</string>
 			<key>xpos</key>
@@ -1682,7 +1686,7 @@ Useful for some maintenance
 		<key>B3EC803A-F1D9-4C1B-93A1-6F18A4F7928A</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>10</integer>
+			<integer>2</integer>
 			<key>note</key>
 			<string>rename tag</string>
 			<key>xpos</key>
