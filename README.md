@@ -2,30 +2,37 @@
 
 Tag mails with a label since this does not exist in Apple Mail
 
-▸  Requires [jq](https://formulae.brew.sh/formula/jq)  
-▸  [Download workflow](https://github.com/modrocko/apple-mail-tags-alfred-workflow/releases/latest)
+▸  Requires [jq](https://formulae.brew.sh/formula/jq)
 
 
 ## Overview
-▸ Tag selected email(s) in Apple Mail  
-▸ View all emails for a selected tag   
-▸ Open 1 or all emails for a selected tag   
-▸ Search for email(s) based on sender or subject  
-▸ Remove a tag from email(s)   
-▸ Rename a tag  
-▸ Set & manage a list of default tags  
+A complete tagging system:  [**Apple Mail Tags**](example.com) | [Browser Bookmark Tags](example.com) | [Finder File Tags](example.com)
 
+### What sucks...
 
+✘  Can't tag mails using Apple Mail, and...  
+✘  Too silly keeping emails marked as *unread* for days  
+✘  Too much time organizing emails in folders  
+✘  Too confusing searching for *this & that*
+
+### What doesn't...
+
+✓  Tag any or many emails however you want — instantly  
+✓  Organize, find & open any or many emails — instantly  
+✓  Specify default tags or type your own — instantly  
+✓  Keep your email sanity — always
 
 ## Usage
 
+Here're the main functions for Apple Mail Tags using Alfred
 
+*💡 **Tip**: Type '!' to mark & save tags as '❗' (high priority)*  
 
 ### Initialize workflow
 
-Run this operation to start using this workflow
+❗Type `:mt init` to run this operation to start using this workflow
 
-![](assets/init.png)    
+![](assets/mt-init.png)     
 
 <kbd>↵</kbd> Initialize the workflow
 
@@ -35,15 +42,17 @@ Run this operation to start using this workflow
 
 ### Show all Mail Tag options
 
-View then choose an option
+Type `mt` to view top level functions
 
-![](assets/mtag.png)    
+![](assets/mt.png) 
 
 ### Assign a tag
 
+Type `mta` to view all tags *(defaults or previously specified tags)*
+
 Select or type a new label to tag currently highlighted emails in Apple Mail
 
-![](assets/assign-tag.png)    
+![image-20250418043806942](assets/mta.png)     
 
 <kbd>↵</kbd> Tag selected email(s)
 
@@ -51,9 +60,9 @@ Select or type a new label to tag currently highlighted emails in Apple Mail
 
 ### List tagged emails
 
-View a list of emails grouped by tag
+Type `mtl` to view a list of emails grouped by tag
 
-![](assets/list-tagged-emails.png)  
+![](assets/mtl.png)  
 
 <kbd>↵</kbd>  View all emails for selected tag
 
@@ -65,33 +74,17 @@ View a list of emails grouped by tag
 
 <kbd>⇧</kbd> <kbd>↵</kbd> Open all emails for the selected tag
 
-
-
-### View emails by tag
-
-View a list of emails for selected tag above
-
-![](assets/view-emails-by-tag.png)    
-
-<kbd>↵</kbd>  View selected email
-
-<kbd>⌘</kbd> <kbd>↵</kbd> Remove this tag & all emails for this tag
-
-<kbd>⌥</kbd> <kbd>↵</kbd> Reassign this tag for all associated emails 
-
-<kbd>⌃</kbd> <kbd>↵</kbd> Tag currently highlighted emails with specified tag 
-
-
+​    
 
 ### Search tagged emails
 
-Search all emails by subject or sender
+Type `mtl` to search all emails by subject or sender
 
-![](assets/search-tagged-emails.png)    
+![](assets/mts.png)  
 
-Type % to show all tagged emails. Or type other characters to filter search results.
+Type `%` to show all tagged emails. Or type other characters to filter search results.
 
-![](assets/search-tagged-emails-2.png)    
+![image-20250418044312384](assets/mts-filter.png) 
 
 <kbd>↵</kbd>  View email for selected item
 
@@ -105,12 +98,14 @@ Type % to show all tagged emails. Or type other characters to filter search resu
 
 ### Apple Mail Tag Utilities
 
-Useful for some maintenance
+Type `:mt edit` to edit data files (if needed) and open underlying folders
 
-![](assets/mtag-edit.png)    
+![image-20250418044544094](assets/mt-edit.png) 
 
 <kbd>↵</kbd>  Open email .json file for manual edits via TextEdit.app
 
 <kbd>⌘</kbd> <kbd>↵</kbd> Open default tags .json file for manual edit via TextEdit.app
 
-<kbd>⌥</kbd> <kbd>↵</kbd> Open the workflow data folder for this workflow
+<kbd>⌥</kbd> <kbd>↵</kbd> Open the data folder for this workflow
+
+<kbd>⌃</kbd> <kbd>↵</kbd> Open the workflow folder for this workflow
