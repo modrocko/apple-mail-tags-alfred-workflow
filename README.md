@@ -38,8 +38,6 @@ Here're the main functions for Apple Mail Tags using Alfred
 
 <kbd>⌘</kbd> <kbd>↵</kbd> Reset data files *(will delete current data files)* 
 
-
-
 ### Show all Mail Tag options
 
 Type `mt` to view top level functions
@@ -56,8 +54,6 @@ Select or type a new label to tag currently highlighted emails in Apple Mail
 
 <kbd>↵</kbd> Tag selected email(s)
 
-
-
 ### List tagged emails
 
 Type `mtl` to view a list of emails grouped by tag
@@ -73,8 +69,6 @@ Type `mtl` to view a list of emails grouped by tag
 <kbd>⌃</kbd> <kbd>↵</kbd> Tag currently highlighted emails for selected tag
 
 <kbd>⇧</kbd> <kbd>↵</kbd> Open all emails for the selected tag
-
-​    
 
 ### Search tagged emails
 
@@ -94,9 +88,7 @@ Type `%` to show all tagged emails. Or type other characters to filter search re
 
 <kbd>⌃</kbd> <kbd>↵</kbd> Reassign tag for selected email
 
-
-
-### Apple Mail Tag Utilities
+### Apple Mail Tag utilities
 
 Type `:mt edit` to edit data files (if needed) and open underlying folders
 
