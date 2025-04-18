@@ -6,7 +6,7 @@ Tag mails with a label since this does not exist in Apple Mail
 
 
 ## Overview
-A complete tagging system:  [**Apple Mail Tags**](example.com) | [Browser Bookmark Tags](example.com) | [Finder File Tags](example.com)
+A complete tagging system:  [**Apple Mail Tags**](https://github.com/modrocko/apple-mail-tags-alfred-workflow) | [Browser Bookmark Tags](https://github.com/modrocko/browser-bookmark-tags-alfred-workflow) | [Finder File Tags](https://github.com/modrocko/finder-file-tags-alfred-workflow)
 
 ### What sucks...
 
