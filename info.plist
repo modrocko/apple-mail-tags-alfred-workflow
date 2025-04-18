@@ -514,30 +514,6 @@ osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in 
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>cd "$alfred_workflow_directory"
-python3 scripts/tag_emails.py "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -585,6 +561,30 @@ python3 scripts/specify_tag.py "{query}"
 			<string>DBF1BC5E-DA7F-45EB-9F45-3AB176ECC9A5</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>cd "$alfred_workflow_directory"
+python3 scripts/tag_emails.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1348,7 +1348,7 @@ Select or type a new label to tag currently highlighted emails in Apple Mail
 
 ### List tagged emails
 
-Type `mtl` to view a list of emails grouped by tag
+Type `mtl` to view a list of all items grouped by tag
 
 ![](assets/mtl.png)  
 
@@ -1364,7 +1364,7 @@ Type `mtl` to view a list of emails grouped by tag
 
 ### Search tagged emails
 
-Type `mts` to search all emails by subject or sender
+Type `mts` to search through all tagged emails
 
 ![image-20250418110709013](assets/mts.png)  
 
@@ -1382,9 +1382,9 @@ Type `:mt edit` to edit data files (if needed) and open underlying folders
 
 ![image-20250418044544094](assets/mt-edit.png) 
 
-&lt;kbd&gt;↵&lt;/kbd&gt;  Open email .json file for manual edits via TextEdit.app
+&lt;kbd&gt;↵&lt;/kbd&gt;  Open email file for manual edits via TextEdit.app
 
-&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open default tags .json file for manual edit via TextEdit.app
+&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open default tags file for manual edit via TextEdit.app
 
 &lt;kbd&gt;⌥&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open the data folder for this workflow
 
@@ -1692,7 +1692,7 @@ Type `:mt edit` to edit data files (if needed) and open underlying folders
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>3.1.2</string>
+	<string>3.2.1</string>
 	<key>webaddress</key>
 	<string>toddsgotapen.com</string>
 </dict>

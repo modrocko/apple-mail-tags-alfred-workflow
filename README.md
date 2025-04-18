@@ -56,7 +56,7 @@ Select or type a new label to tag currently highlighted emails in Apple Mail
 
 ### List tagged emails
 
-Type `mtl` to view a list of emails grouped by tag
+Type `mtl` to view a list of all items grouped by tag
 
 ![](assets/mtl.png)  
 
@@ -72,7 +72,7 @@ Type `mtl` to view a list of emails grouped by tag
 
 ### Search tagged emails
 
-Type `mts` to search all emails by subject or sender
+Type `mts` to search through all tagged emails
 
 ![image-20250418110709013](assets/mts.png)  
 
@@ -90,9 +90,9 @@ Type `:mt edit` to edit data files (if needed) and open underlying folders
 
 ![image-20250418044544094](assets/mt-edit.png) 
 
-<kbd>↵</kbd>  Open email .json file for manual edits via TextEdit.app
+<kbd>↵</kbd>  Open email file for manual edits via TextEdit.app
 
-<kbd>⌘</kbd> <kbd>↵</kbd> Open default tags .json file for manual edit via TextEdit.app
+<kbd>⌘</kbd> <kbd>↵</kbd> Open default tags file for manual edit via TextEdit.app
 
 <kbd>⌥</kbd> <kbd>↵</kbd> Open the data folder for this workflow
 
