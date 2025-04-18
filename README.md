@@ -72,13 +72,9 @@ Type `mtl` to view a list of emails grouped by tag
 
 ### Search tagged emails
 
-Type `mtl` to search all emails by subject or sender
+Type `mts` to search all emails by subject or sender
 
-![](assets/mts.png)  
-
-Type `%` to show all tagged emails. Or type other characters to filter search results.
-
-![image-20250418044312384](assets/mts-filter.png) 
+![image-20250418110709013](assets/mts.png)  
 
 <kbd>↵</kbd>  View email for selected item
 

@@ -241,19 +241,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>862F3B21-447F-4D57-8545-FFA66E433225</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4B7DD93D-3583-4F42-8CDD-87A2DDB1F182</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>87646F74-8058-4272-8CEE-2A0602A76861</key>
 		<array>
 			<dict>
@@ -527,6 +514,30 @@ osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in 
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>cd "$alfred_workflow_directory"
+python3 scripts/tag_emails.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -574,30 +585,6 @@ python3 scripts/specify_tag.py "{query}"
 			<string>DBF1BC5E-DA7F-45EB-9F45-3AB176ECC9A5</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>cd "$alfred_workflow_directory"
-python3 scripts/tag_emails.py "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>2FBFBF2C-881E-4A12-B51D-345DC7E7C8C4</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -976,12 +963,30 @@ osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in 
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>old_tag</key>
+					<string>{var:old_tag}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1C89AB65-8ADB-4140-A50C-0E656801A208</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
-				<integer>3</integer>
-				<key>argumenttext</key>
-				<string>%</string>
+				<integer>0</integer>
 				<key>focusedappvariable</key>
 				<false/>
 				<key>focusedappvariablename</key>
@@ -1009,47 +1014,6 @@ osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in 
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>old_tag</key>
-					<string>{var:old_tag}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>1C89AB65-8ADB-4140-A50C-0E656801A208</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>mts</string>
-				<key>subtext</key>
-				<string>Search by sender or subject. Type % to show all mails</string>
-				<key>text</key>
-				<string>Search tagged emails</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>862F3B21-447F-4D57-8545-FFA66E433225</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -1059,9 +1023,11 @@ osascript -e 'tell application "Alfred 5" to run trigger "refresh_tags_list" in 
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>68</integer>
+				<key>keyword</key>
+				<string>mts</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -1081,9 +1047,9 @@ python3 scripts/list_emails_for_search.py "{query}"
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Search by sender or subject</string>
 				<key>title</key>
-				<string></string>
+				<string>Search tagged emails</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -1398,13 +1364,9 @@ Type `mtl` to view a list of emails grouped by tag
 
 ### Search tagged emails
 
-Type `mtl` to search all emails by subject or sender
+Type `mts` to search all emails by subject or sender
 
-![](assets/mts.png)  
-
-Type `%` to show all tagged emails. Or type other characters to filter search results.
-
-![image-20250418044312384](assets/mts-filter.png) 
+![image-20250418110709013](assets/mts.png)  
 
 &lt;kbd&gt;↵&lt;/kbd&gt;  View email for selected item
 
@@ -1513,7 +1475,7 @@ Type `:mt edit` to edit data files (if needed) and open underlying folders
 		<key>4B7DD93D-3583-4F42-8CDD-87A2DDB1F182</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>5</integer>
+			<integer>8</integer>
 			<key>note</key>
 			<string>list emails for search</string>
 			<key>xpos</key>
@@ -1587,17 +1549,6 @@ Type `:mt edit` to edit data files (if needed) and open underlying folders
 			<real>1015</real>
 			<key>ypos</key>
 			<real>60</real>
-		</dict>
-		<key>862F3B21-447F-4D57-8545-FFA66E433225</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>prompt for search</string>
-			<key>xpos</key>
-			<real>285</real>
-			<key>ypos</key>
-			<real>880</real>
 		</dict>
 		<key>87646F74-8058-4272-8CEE-2A0602A76861</key>
 		<dict>
@@ -1702,9 +1653,9 @@ Type `:mt edit` to edit data files (if needed) and open underlying folders
 		<key>D8F123C7-34D8-4D51-BFB7-86F6484F6D93</key>
 		<dict>
 			<key>xpos</key>
-			<real>280</real>
+			<real>285</real>
 			<key>ypos</key>
-			<real>720</real>
+			<real>880</real>
 		</dict>
 		<key>DBF1BC5E-DA7F-45EB-9F45-3AB176ECC9A5</key>
 		<dict>
