@@ -1292,103 +1292,22 @@ if os.path.exists(default_tags_path):
 	<key>readme</key>
 	<string># Apple Mail Tags
 
-Tag mails with a label since this does not exist in Apple Mail
-
-▸  Requires [jq](https://formulae.brew.sh/formula/jq)
-
-
-## Overview
-A complete tagging system:  **&lt;u&gt;Apple Mail Tags&lt;/u&gt;** | [Browser Bookmark Tags](https://github.com/modrocko/browser-bookmark-tags-alfred-workflow) | [Finder File Tags](https://github.com/modrocko/finder-file-tags-alfred-workflow)
-
-### What sucks...
-
-✘  Can't tag mails using Apple Mail, and...  
-✘  Too silly keeping emails marked as *unread* for days  
-✘  Too much time organizing emails in folders  
-✘  Too confusing searching for *this &amp; that*
-
-### What doesn't...
+A simple system for tagging, finding and managing tags for Apple Mail emails.
 
 ✓  Tag any or many emails however you want — instantly  
 ✓  Organize, find &amp; open any or many emails — instantly  
 ✓  Specify default tags or type your own — instantly  
 ✓  Keep your email sanity — always
 
-## Usage
 
-Here're the main functions for Apple Mail Tags using Alfred
+* `:mt init` — Intialize workflow before using
+* `mt` — View top level functions
+* `mta` — Assign a tag to currently highighted emails
+* `mtl` — List all emails grouped by tag
+* `mts` — Search through all tagged emails
+* `:mt edit` — Edit data files (if needed) and open underlying folders
 
-*💡 **Tip**: Type '!' to mark &amp; save tags as '❗' (high priority)*  
-
-### Initialize workflow
-
-❗Type `:mt init` to run this operation to start using this workflow
-
-![](assets/mt-init.png)     
-
-&lt;kbd&gt;↵&lt;/kbd&gt; Initialize the workflow
-
-&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Reset data files *(will delete current data files)* 
-
-### Show all Mail Tag options
-
-Type `mt` to view top level functions
-
-![](assets/mt.png) 
-
-### Assign a tag
-
-Type `mta` to view all tags *(defaults or previously specified tags)*
-
-Select or type a new label to tag currently highlighted emails in Apple Mail
-
-![image-20250418043806942](assets/mta.png)     
-
-&lt;kbd&gt;↵&lt;/kbd&gt; Tag selected email(s)
-
-### List tagged emails
-
-Type `mtl` to view a list of all items grouped by tag
-
-![](assets/mtl.png)  
-
-&lt;kbd&gt;↵&lt;/kbd&gt;  View all emails for selected tag
-
-&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Remove selected tag from all tagged emails
-
-&lt;kbd&gt;⌥&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Rename selected tag for all emails
-
-&lt;kbd&gt;⌃&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Tag currently highlighted emails for selected tag
-
-&lt;kbd&gt;⇧&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open all emails for the selected tag
-
-### Search tagged emails
-
-Type `mts` to search through all tagged emails
-
-![image-20250418110709013](assets/mts.png)  
-
-&lt;kbd&gt;↵&lt;/kbd&gt;  View email for selected item
-
-&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Remove tag from selected email
-
-&lt;kbd&gt;⌥&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open the email and remove tag afterwards
-
-&lt;kbd&gt;⌃&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Reassign tag for selected email
-
-### Apple Mail Tag utilities
-
-Type `:mt edit` to edit data files (if needed) and open underlying folders
-
-![image-20250418044544094](assets/mt-edit.png) 
-
-&lt;kbd&gt;↵&lt;/kbd&gt;  Open email file for manual edits via TextEdit.app
-
-&lt;kbd&gt;⌘&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open default tags file for manual edit via TextEdit.app
-
-&lt;kbd&gt;⌥&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open the data folder for this workflow
-
-&lt;kbd&gt;⌃&lt;/kbd&gt; &lt;kbd&gt;↵&lt;/kbd&gt; Open the workflow folder for this workflow</string>
+[See documentation](https://github.com/modrocko/apple-mail-tags-alfred-workflow)</string>
 	<key>uidata</key>
 	<dict>
 		<key>00B6CE1D-D11A-4E28-9C22-9665282CC1C2</key>
@@ -1692,7 +1611,7 @@ Type `:mt edit` to edit data files (if needed) and open underlying folders
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>3.2.1</string>
+	<string>3.2.2</string>
 	<key>webaddress</key>
 	<string>toddsgotapen.com</string>
 </dict>
