@@ -15,7 +15,7 @@ A complete tagging system:  **<u>Apple Mail Tags</u>** | [Browser Bookmark Tags]
 ✘  Too much time organizing emails in folders  
 ✘  Too confusing searching for *this & that*
 
-### What doesn't...
+### What rocks...
 
 ✓  Tag any or many emails however you want — instantly  
 ✓  Organize, find & open any or many emails — instantly  
